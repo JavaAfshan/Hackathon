@@ -1,0 +1,44 @@
+npx create-next-app@latest hackathon
+npm install react-icons --save
+ npx shadcn-ui init
+
+content: [
+'./src/pages/**/*.{ts,tsx}',
+'./components/**/*.{ts,tsx}',
+'./src/app/**/*.{ts,tsx}',
+],
+replace it tailwind.config.js
+
+npm i -D daisyui
+
+Then add daisyUI to your tailwind.config.js files:
+module.exports = {
+  //...
+  plugins: [require("daisyui")],
+}
+
+
+
+module.exports = {
+  daisyui: {
+    themes: ["light"],
+  },
+
+theme color customization:
+  colors: {
+        myBlue:"#3C486B",
+        myYellow:"#F9D949",
+        myWhite:"#F0F0F0",
+        myPink:"#F45050"
+in tailwind.config.js using this website
+https://colorhunt.co/palettes/retro
+
+
+
+
+
+
+
+for navbar
+npx shadcn-ui@latest add navigation-menu
+
